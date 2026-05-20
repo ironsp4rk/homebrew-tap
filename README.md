@@ -20,7 +20,7 @@ Once the tap is added, you can install any of the available formulae.
 
 ## Maintenance
 
-The formulae in this repository are automatically updated and maintained via [cargo-dist](https://opensource.axo.dev/cargo-dist/) from their respective source repositories.
+The formulae in this repository are automatically updated and maintained via [cargo-dist](https://axodotdev.github.io/cargo-dist/) from their respective source repositories.
 
 ## Documentation
 `brew help`, `man brew` or check [Homebrew's documentation](https://docs.brew.sh).
