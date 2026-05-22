@@ -1,20 +1,20 @@
 class CascCli < Formula
   desc "A cross-platform CLI tool for Blizzard CASC archives."
   homepage "https://github.com/ironsp4rk/casc-cli"
-  version "0.1.3"
+  version "0.1.5"
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://github.com/ironsp4rk/casc-cli/releases/download/v0.1.3/casc-aarch64-apple-darwin.tar.xz"
-      sha256 "fe31be380538a21bff7f73c1e726336e62ab7d53d578fc445a93c0a9756f75d3"
+      url "https://github.com/ironsp4rk/casc-cli/releases/download/v0.1.5/casc-aarch64-apple-darwin.tar.xz"
+      sha256 "4eb62d1dc5097d1673d039a050f2e0652a46c25200f4a3dd30c63077b8909ba4"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/ironsp4rk/casc-cli/releases/download/v0.1.3/casc-x86_64-apple-darwin.tar.xz"
-      sha256 "f36bed035f9dd4e32f15c5ef63e3277a9d91dea6acb4671c7d07c23b7af32fa3"
+      url "https://github.com/ironsp4rk/casc-cli/releases/download/v0.1.5/casc-x86_64-apple-darwin.tar.xz"
+      sha256 "b040815c8efc26aa9b01ac4dae1503da8c625895875446aebbb39b54dd618cc8"
     end
   end
   if OS.linux? && Hardware::CPU.intel?
-    url "https://github.com/ironsp4rk/casc-cli/releases/download/v0.1.3/casc-x86_64-unknown-linux-gnu.tar.xz"
-    sha256 "cb7a7b793a5479dd761a7148ba65dc18ce380f5615aa2aac315a096dc0823bea"
+    url "https://github.com/ironsp4rk/casc-cli/releases/download/v0.1.5/casc-x86_64-unknown-linux-gnu.tar.xz"
+    sha256 "f2aec3be710bf5dc6fadc2af540daedcdfa6abfc3f13b513295bd500a5d567e5"
   end
   license "MIT"
 
