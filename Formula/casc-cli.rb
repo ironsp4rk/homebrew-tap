@@ -5,16 +5,16 @@ class CascCli < Formula
   if OS.mac?
     if Hardware::CPU.arm?
       url "https://github.com/ironsp4rk/casc-cli/releases/download/v0.1.6/casc-aarch64-apple-darwin.tar.xz"
-      sha256 "f49060a1c9136e6fa93cd98ec4ec3a52981e1f7882b8370397eed0403397566f"
+      sha256 "c0887d11795e95b47b4eec2e3cc14fbad64569765b01b3dcd301790e2280cb07"
     end
     if Hardware::CPU.intel?
       url "https://github.com/ironsp4rk/casc-cli/releases/download/v0.1.6/casc-x86_64-apple-darwin.tar.xz"
-      sha256 "ffa87949df46c6f00302a69f923c36ca9636d919d6f1919814ad7b56638529ce"
+      sha256 "414959d70dbc0ed0ff38ded483b244ad1d397f33352b5f6a7aeb96f5449f0d65"
     end
   end
   if OS.linux? && Hardware::CPU.intel?
     url "https://github.com/ironsp4rk/casc-cli/releases/download/v0.1.6/casc-x86_64-unknown-linux-gnu.tar.xz"
-    sha256 "9cdc31f7c98a34ca5bb39552bf9b535804fcf57c45685a299d9aa2ae20915089"
+    sha256 "0684670ac8f938786d45586d79aeafdd0b205ab5d6cc75786ab094ef743c2b05"
   end
   license "MIT"
 
